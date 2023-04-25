@@ -42,7 +42,7 @@ body{
     display: flex;
     flex-direction: row;
     width: 100vw;
-    height: 100vh;
+    height: contain;
     margin-top: 55px;
 }
 
@@ -68,7 +68,7 @@ body{
     font-size: 40px;
     letter-spacing: 3px;
     color: white;
-    background-color: rgba(255, 255, 255, 0.2);
+    background-color: rgba(255, 0, 0, 0.507);
 
 }
 
@@ -77,7 +77,7 @@ body{
     font-size: 40px;
     letter-spacing: 3px;
     color: white;
-    background-color: rgba(255, 255, 255, 0.2);
+    background-color: rgba(0, 55, 255, 0.3);
 }
 
 .grid-container{
@@ -126,4 +126,14 @@ body{
     border-radius: 5px;
     color: black;
     background-color: rgba(255, 255, 255, 0.5);
+}
+
+
+.darth_vader{
+    font-size: 30px;
+}
+
+.skywalker{
+    font-size: 25px;
+    font-style: italic;
 }
